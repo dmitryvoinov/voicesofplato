@@ -1,0 +1,59 @@
+#Symposiun version
+import os
+import re
+from bs4 import BeautifulSoup
+
+
+!wget https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-eng2.xml
+!wget https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0059/tlg011/tlg0059.tlg011.perseus-grc2.xml
+
+
+with open('tlg0059.tlg011.perseus-eng2.xml', 'r') as file:
+data_eng = file.read()
+
+with open('tlg0059.tlg011.perseus-grc2.xml', 'r') as file:
+data_greek = file.read()
+
+
+eng_soup = BeautifulSoup(data_eng, 'xml')
+greek_soup = BeautifulSoup(data_greek, 'xml')
+
+
+speaker = {}
+
+
+all_divs = greek_soup.find_all('div', {"subtype": "section"})
+
+
+for div in all_divs:
+n = div['n']
+said = div.find_all('said', {"direct": "false"})
+if len(said) == 1:
+who = said[0]['who']
+text_div = re.sub(r"'\n\s+|'\n', ", "", str(div.find_all(text=True)))
+said = said[0]
+text_said = re.sub(r"'\n\s+|'\n', ", "", str(said.find_all(text=True)))
+if text_div != text_said:
+str_div = str(div)
+str_div = str_div.replace("\n", "")
+str_div = re.sub(r">[\n \t\r\s]+<", "><", str_div, flags=re.MULTILINE)
+if '<said rend="merge" who="#Apollodorus"><said' in str_div:
+speaker[n] = who
+list_milestones = re.findall('(</said>)?<milestone ed="P"', str_div)
+print(list_milestones)
+print(n)
+print(list_milestones.index('</said>'))
+print()
+
+
+with open('divs2.xml', 'w') as file:
+all_divs = greek_soup.find_all('div', {"subtype" : "section"})
+for div in all_divs:
+n = div['n']
+str_div = str(div)
+if n in speaker:
+str_div = str_div.replace('<said rend="merge" who="#Ἀπολλόδωρος">', '<said who="#Ἀπολλόδωρος" rend="merge"><said who="{}" direct="false">'.format(speaker[n]))
+file.write(str_div)
+
+
+print('success')
