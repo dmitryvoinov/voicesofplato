@@ -1,6 +1,7 @@
 # Voices of Plato
 Stylometry-driven research of Plato's dialogues
 
+SYNOPSIS:
 Do Plato's characters possess an individual style?
 Can it be tracked both in early and late dialogues?
 Are Socrates from the early works and Socrates from the later dialogues the same character stylometry-wise?
@@ -8,13 +9,14 @@ Are Socrates from the early works and Socrates from the later dialogues the same
 A study of Plato's dialogues in Ancient Greek will allow us to find answers to these questions.
 In other words, to find out what the ‘voices of Plato’ actually sound like.
 
-To do so we:
+WHAT WE DID:
 1. Study the existing research papers and works related to Plato, stylometry, and digital humanities.
 2. Work with Plato's dialogues in XML (both English and Ancient Greek versions) making sure that the correct markup is there.
 3. Conduct research via Stylo (R package) to analyze stylometry specifics of the dataset.
 4. Make conclusions and think of further research possibilities.
 
-These steps are described at https://dmitryvoinov.com/plato in detail.
+ROLES:
+These steps are described at https://dmitryvoinov.com/plato in detail. The project was inspired by Olga Alieva's research studies and supported by Boris Orekhov who contributed greatly helping to master the Python code. Dmitry Voinov and Varvara Kryuchkova were the ones to finalize the markup (with the help of the professors mentioned above) and create the presentation materials (a landing page and this repository).
 
 CONTENTS:
 1. LINK: landing page describing the project.
@@ -31,4 +33,5 @@ Boris Orekhov / Leading Researcher: International Laboratory for Language Conver
 Dmitry Voinov / MA Student of 2022-2024 (National Research University Higher School of Economics);
 Varvara Kryuchkova / MA Student of 2022-2024 (National Research University Higher School of Economics).
 
+LICENSE:
 Available under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This document was accessed on April 5, 2024, and was originally published on github.com/dmitryvoinov/voicesofplato
