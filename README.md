@@ -33,9 +33,9 @@ Olga Alieva / Associate Professor (Humanities Faculty), Associate Professor (Sch
 
 Boris Orekhov / Leading Researcher: International Laboratory for Language Convergence, Associate Professor (Humanities Faculty / School of Linguistics, HSE), Head of the Digital Humanities Educational Program (HSE), PhD in Philology;
 
-Dmitry Voinov / MA Student of 2022-2024 (National Research University Higher School of Economics);
+Dmitry Voinov / Digital Humanities MA Student of 2022-2024 (National Research University Higher School of Economics);
 
-Varvara Kryuchkova / MA Student of 2022-2024 (National Research University Higher School of Economics).
+Varvara Kryuchkova / Digital Humanities MA Student of 2022-2024 (National Research University Higher School of Economics).
 
 LICENSE:
 Available under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). This document was accessed on April 5, 2024, and was originally published on github.com/dmitryvoinov/voicesofplato
