@@ -1,2 +1,3 @@
 # voicesofplato
-Stylometry driven research of the Plato's dialogues
+Stylometry-driven research of Plato's dialogues
+
