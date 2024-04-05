@@ -21,15 +21,15 @@ These steps are described at https://dmitryvoinov.com/plato in detail. The proje
 CONTENTS:
 1. LINK: landing page describing the project.
 2. XMLs: a dataset of the three XMLs in the Ancient Greek
-   - Charmides completed; 150 kb)
-   - Phaedo (to be completed in 04-2024; 393 kb)
-   - Symposium (completed; 268 kb)
+   - Charmides (completed; 150 kb);
+   - Phaedo (to be completed in 04-2024; 393 kb);
+   - Symposium (completed; 268 kb);
 4. Code 1: the solution that partially helped us to markup the 'Symposium' dialogue
 5. Code 2: the solution that helped us to retrieve the necessary lines from the XMLs.
 
 TEAM MEMBERS:
 Olga Alieva / Associate Professor (Humanities Faculty), Associate Professor (School of Philosophy and Cultural Studies, National Research University Higher School of Economics (HSE)), PhD in Philology;
-Boris Orekhov / Leading Researcher: International Laboratory for Language Convergence, Associate Professor (Humanities Faculty / School of Linguistics,HSE), Head of the Digital Humanities Educational Program (HSE), PhD in Philology;
+Boris Orekhov / Leading Researcher: International Laboratory for Language Convergence, Associate Professor (Humanities Faculty / School of Linguistics, HSE), Head of the Digital Humanities Educational Program (HSE), PhD in Philology;
 Dmitry Voinov / MA Student of 2022-2024 (National Research University Higher School of Economics);
 Varvara Kryuchkova / MA Student of 2022-2024 (National Research University Higher School of Economics).
 
