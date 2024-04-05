@@ -1,0 +1,19 @@
+#retrieving the lines
+from bs4 import BeautifulSoup
+
+# Load the XML file
+with open("symposium_ed.xml", "r") as file:
+    xml_data = file.read()
+
+# Parse the XML
+soup = BeautifulSoup(xml_data, "xml")
+
+# Find all <said> tags
+said_tags = soup.find_all("said")
+
+# Extract quotes and names
+for said_tag in said_tags:
+    name = said_tag["who"]
+    quote = said_tag.get_text(strip=True)
+    print(f"{name}:")
+    print(quote)
