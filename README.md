@@ -29,8 +29,11 @@ CONTENTS:
 
 TEAM MEMBERS:
 Olga Alieva / Associate Professor (Humanities Faculty), Associate Professor (School of Philosophy and Cultural Studies, National Research University Higher School of Economics (HSE)), PhD in Philology;
+
 Boris Orekhov / Leading Researcher: International Laboratory for Language Convergence, Associate Professor (Humanities Faculty / School of Linguistics, HSE), Head of the Digital Humanities Educational Program (HSE), PhD in Philology;
+
 Dmitry Voinov / MA Student of 2022-2024 (National Research University Higher School of Economics);
+
 Varvara Kryuchkova / MA Student of 2022-2024 (National Research University Higher School of Economics).
 
 LICENSE:
