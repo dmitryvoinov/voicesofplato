@@ -28,6 +28,7 @@ CONTENTS:
 5. Code 2: the solution that helped us to retrieve the necessary lines from the XMLs.
 
 TEAM MEMBERS:
+
 Olga Alieva / Associate Professor (Humanities Faculty), Associate Professor (School of Philosophy and Cultural Studies, National Research University Higher School of Economics (HSE)), PhD in Philology;
 
 Boris Orekhov / Leading Researcher: International Laboratory for Language Convergence, Associate Professor (Humanities Faculty / School of Linguistics, HSE), Head of the Digital Humanities Educational Program (HSE), PhD in Philology;
